@@ -261,6 +261,11 @@ section {
     z-index: 1;
 }
 
+.timeline-item .gratitude {
+    display: block;
+    color: #1cb698;
+}
+
 .timeline-content {
     background-color: var(--card-bg);
     padding: 1.5rem;
