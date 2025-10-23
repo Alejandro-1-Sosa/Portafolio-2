@@ -182,6 +182,65 @@ section {
     max-width: 600px;
 }
 
+.hero-text .fila {
+    display: flex;
+}
+
+.hero-text .fila .col {
+    width: 500px;
+}
+
+.hero-text .fila .col h3 {
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+
+.hero-text .fila .col ul {
+    list-style: none;
+}
+
+.hero-text .fila .col ul li {
+    margin: 12px 0;
+}
+
+.hero-text .fila .col ul li strong {
+    display: inline-block;
+    color: #1cb698;
+    width: 130px;
+}
+
+.hero-content .col .contenedor-intereses {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-content .col .contenedor-intereses .intereses i{
+    width: 100px;
+    height: 100px;
+    background-color: #252a2e;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+
+.hero-content .col .contenedor-intereses .intereses:hover {
+    background-color: #1cb698;
+}
+
+.hero-content .col .contenedor-intereses .intereses{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
 .social-links {
     display: flex;
     gap: 1rem;
