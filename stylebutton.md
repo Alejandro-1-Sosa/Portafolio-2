@@ -21,3 +21,6 @@ function mostrarOcultarMenu(){
     const nav = document.getElementById("nav");
     nav.classList.toggle("responsive");
 }
+
+Control de Gastos y Proyectos
+Aplicación diseñada para gestionar diferentes tareas de tu día a día.
