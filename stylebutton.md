@@ -10,3 +10,5 @@
 }
 
 <script src="https://kit.fontawesome.com/2193d055c9.js" crossorigin="anonymous" ></script>
+
+background-color: #1CB698;

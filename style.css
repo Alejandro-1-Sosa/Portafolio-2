@@ -487,6 +487,7 @@ section {
     color: var(--primary-color);
 }
 
+/* FOOTER */
 footer {
     background-color: var(--darker-bg);
     border-top: 1px solid var(--border-color);
@@ -500,6 +501,46 @@ footer {
     max-width: 1400px;
     margin: 0 auto;
 }
+
+footer{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes{
+    margin-bottom: 20px;
+}
+footer .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color:#5651d8;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+
 
 @media (max-width: 480px) {
     header {
@@ -515,19 +556,83 @@ footer {
     }
 }
 
-/* DISEÑO RESPONSIVE */
+/* SECCION RESPONSIVE */
+.nav-responsive {
+    display: none;
+    font-size: 25px;
+    color: #fff;
+    cursor: pointer;
+}
 
+/* Ocultamos el menú desplegable por defecto */
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
 
+/* Ajuste visual del nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #252A2E;
+    color: #fff;
+}
+@media screen and (max-width: 980px) {
+    nav ul {
+        display: none;
+    }
 
+    .nav-responsive {
+        display: block;
+    }
 
+    nav.responsive ul {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        border-radius: 10px;
+        width: 180px;
+        padding: 10px 0;
+    }
 
+    nav.responsive ul li {
+        border-bottom: 1px solid #1cb698;
+        padding: 10px 20px;
+    }
 
+    nav.responsive ul li:last-child {
+        border-bottom: none;
+    }
+    
+}
 
+/* Otras secciones adaptables */
+@media screen and (max-width: 700px) {
+  .sobremi .fila,
+  .skills .fila,
+  .curriculum .fila,
+  .portfolio .galeria,
+  .contacto .fila {
+    display: block;
+  }
 
+  .sobremi .col,
+  .skills .col,
+  .curriculum .col,
+  .portfolio .galeria .proyecto,
+  .contacto .col {
+    width: 100%;
+  }
 
-
-
-
+  .portfolio .galeria .proyecto img {
+    width: 100%;
+  }
+}
 
 
 
