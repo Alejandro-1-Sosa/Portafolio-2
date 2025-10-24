@@ -8,3 +8,11 @@
     z-index: -1;
     transition: 1s;
 }
+
+<script src="https://kit.fontawesome.com/2193d055c9.js" crossorigin="anonymous" ></script>
+
+background-color: #1CB698;
+
+ <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
