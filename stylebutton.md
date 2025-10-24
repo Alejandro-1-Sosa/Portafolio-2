@@ -8,3 +8,5 @@
     z-index: -1;
     transition: 1s;
 }
+
+<script src="https://kit.fontawesome.com/2193d055c9.js" crossorigin="anonymous" ></script>
