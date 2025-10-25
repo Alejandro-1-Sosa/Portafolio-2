@@ -487,6 +487,61 @@ section {
     color: var(--primary-color);
 }
 
+/* CARRUSEL DE PROYECTOS */
+.proyectos {
+    position: relative;
+    overflow: hidden;
+    max-width: 450px; /*Acá era 900, pero lo cambie haber si cambiaba el tamaño*/
+    margin: auto;
+}
+
+.projects-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.project-card {
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+  user-select: none;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Opcional: mejora responsive */
+@media screen and (max-width: 768px) {
+  .project-card {
+    min-width: 250px;
+  }
+}
+
+
+/* HASTA AQUÍ */
+
 /* FOOTER */
 footer {
     background-color: var(--darker-bg);
