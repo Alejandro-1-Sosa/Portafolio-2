@@ -24,3 +24,15 @@ function mostrarOcultarMenu(){
 
 Control de Gastos y Proyectos
 Aplicación diseñada para gestionar diferentes tareas de tu día a día.
+
+:root {
+    --primary-color: #6c63ff;
+    --dark-bg: #121212;
+    --darker-bg: #0a0a0a;
+    --light-text: #f5f5f5;
+    --gray-text: #aaaaaa;
+    --card-bg: #1e1e1e;
+    --border-color: #2d2d2d;
+    transition: all .3s ease;
+}
+
