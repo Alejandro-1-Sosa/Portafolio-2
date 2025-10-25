@@ -3,17 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <script src="script2.js"></script>
     
-    <script src="https://kit.fontawesome.com/2193d055c9.js" crossorigin="anonymous" ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     
-
     <title>Portafolio</title>
 
 </head>
 <body>
-    
-        <!-- MENÚ DE ENCABEZADO -->
+
+    <!-- Contenido para distintos tamaños de pantalla -->
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <!-- Contenido para LG (≥992px) -->
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <!-- Contenido para MD (≥768px) -->
+    </div>
+    <div class="col-lg-4 col-md-12 col-sm-12"> 
+      <!-- Contenido para SM (≥576px) -->
+    </div>
+
+
+         <!-- MENU ENCABEZADO -->
         <div class="contenedor-header">
       <header>    
         <nav id="nav">
@@ -56,7 +71,7 @@
                 </div>
 
                 <div class="hero-image">
-                        <img src="img/Foto.jpg" alt="profile-image">
+                        <img src="../img/Foto.jpg" alt="profile-image">
                 </div>  
 
            </div>           
@@ -270,7 +285,7 @@
             <div class="projects-container">
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="img/Proyecto 1.png" alt="proyecto 1">
+                        <img src="../img/Proyecto 1.png" alt="proyecto 1">
                     </div>
                     <div class="project-info">
                         <h3>1.1 - Introducción al Desarrollo Web</h3>
@@ -293,7 +308,7 @@
 
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="img/Proyecto 1.2.1.png" alt="proyecto 1">
+                        <img src="../img/Proyecto 1.2.1.png" alt="proyecto 1">
                     </div>
                     <div class="project-info">
                         <h3> 1.2.1 - Actividad del Taller </h3>
@@ -315,7 +330,7 @@
 
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="img/Proyecto 1.3.1.png" alt="proyecto 1">
+                        <img src="../img/Proyecto 1.3.1.png" alt="proyecto 1">
                     </div>
                     <div class="project-info">
                         <h3> 1.3.1 - Actividad del Taller </h3>
@@ -338,7 +353,7 @@
 
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="img/Proyecto 1.3.1.png" alt="proyecto 1">
+                        <img src="../img/Proyecto 1.3.1.png" alt="proyecto 1">
                     </div>
                     <div class="project-info">
                         <h3> 1.3.1 - Actividad del Taller </h3>
@@ -385,7 +400,9 @@
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    </div>
+</div>
+
+    
 </body>
 </html>
-

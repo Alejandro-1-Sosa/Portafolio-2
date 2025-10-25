@@ -16,3 +16,11 @@ background-color: #1CB698;
  <div class="nav-responsive" onclick="mostrarOcultarMenu()">
             <i class="fa-solid fa-bars"></i>
         </div>
+
+function mostrarOcultarMenu(){
+    const nav = document.getElementById("nav");
+    nav.classList.toggle("responsive");
+}
+
+Control de Gastos y Proyectos
+Aplicación diseñada para gestionar diferentes tareas de tu día a día.
